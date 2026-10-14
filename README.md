@@ -1,9 +1,4 @@
 # 🌾 Agricultural Machine Learning Framework 
-Week 1: Strategic Planning & Data Analysis
-
-Welcome to the repository for **Week 1** of the 5-Week Machine Learning Internship in **Agriculture & Agribusiness** at **YuvaIntern**.
-
----
 
 ## 📌 Project Overview
 This repository contains the strategic planning, dataset exploration framework, and project roadmap for building a Machine Learning solution tailored to crop yield prediction and optimal crop recommendation.
@@ -13,7 +8,9 @@ This repository contains the strategic planning, dataset exploration framework, 
 * **Author:** Minahil
 * **Deliverable:** Strategic Planning and Data Analysis Framework (`.docx` Report)
 
----
+Week 1: Strategic Planning & Data Analysis
+
+Welcome to the repository for **Week 1** of the 5-Week Machine Learning Internship in **Agriculture & Agribusiness** at **YuvaIntern**.
 
 ## 🎯 Week 1 Objectives
 1. **Dataset Evaluation:** Analyze open-source datasets (FAOSTAT & UCI ML Crop Recommendation) for global/regional crop yields and soil chemistry metrics.
@@ -74,9 +71,17 @@ The full `.docx` report is available in this repository under `Week_1_Strategic_
 * **Deliverable File:** `Week_2_Model_Design_and_Algorithm_Selection.docx`
 
   ## 🌾 Week 3: Feature Engineering and Data Transformation
-* **Focus:** Devising creative feature engineering techniques and data transformation pipelines for agricultural datasets[cite: 3].
+* **Focus:** Devising creative feature engineering techniques and data transformation pipelines for agricultural datasets.
 * **Key Deliverables:** 
-  - Selected agricultural feature sets with agronomic inclusion rationale[cite: 3].
+  - Selected agricultural feature sets with agronomic inclusion rationale.
   - Five innovative engineering methods ($N \times P \times K$ interactions, GDD, log-transformed rainfall, SHI).
-  - Preprocessing guide covering missing value imputation, scaling, and IQR outlier clipping[cite: 3].
-* **Deliverable File:** `Week_3_Feature_Engineering_and_Data_Transformation.docx`[cite: 3]
+  - Preprocessing guide covering missing value imputation, scaling, and IQR outlier clipping.
+* **Deliverable File:** `Week_3_Feature_Engineering_and_Data_Transformation.docx`
+
+## 🌾 Week 4: Model Evaluation and Optimization Strategy
+* **Focus:** Developing robust evaluation frameworks, performance metrics, diagnostic checks, and hyperparameter tuning for agricultural models[cite: 4].
+* **Key Deliverables:** 
+  - Justification of agricultural performance metrics (RMSE, MAE, $R^2$)[cite: 4].
+  - Diagnostic strategy addressing overfitting, underfitting, and spatial cross-validation.
+  - Systematic hyperparameter optimization framework[cite: 4].
+* **Deliverable File:** `Week_4_Model_Evaluation_and_Optimization_Strategy.docx`
