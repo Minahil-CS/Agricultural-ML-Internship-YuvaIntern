@@ -72,3 +72,11 @@ The full `.docx` report is available in this repository under `Week_1_Strategic_
   - Preprocessing and data transformation pipeline blueprint.
   - End-to-end model architecture schematic addressing agricultural seasonality and weather volatility.
 * **Deliverable File:** `Week_2_Model_Design_and_Algorithm_Selection.docx`
+
+  ## 🌾 Week 3: Feature Engineering and Data Transformation
+* **Focus:** Devising creative feature engineering techniques and data transformation pipelines for agricultural datasets[cite: 3].
+* **Key Deliverables:** 
+  - Selected agricultural feature sets with agronomic inclusion rationale[cite: 3].
+  - Five innovative engineering methods ($N \times P \times K$ interactions, GDD, log-transformed rainfall, SHI).
+  - Preprocessing guide covering missing value imputation, scaling, and IQR outlier clipping[cite: 3].
+* **Deliverable File:** `Week_3_Feature_Engineering_and_Data_Transformation.docx`[cite: 3]
