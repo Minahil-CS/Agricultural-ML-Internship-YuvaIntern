@@ -1,4 +1,5 @@
-# 🌾 Agricultural Machine Learning Framework — Week 1: Strategic Planning & Data Analysis
+# 🌾 Agricultural Machine Learning Framework 
+Week 1: Strategic Planning & Data Analysis
 
 Welcome to the repository for **Week 1** of the 5-Week Machine Learning Internship in **Agriculture & Agribusiness** at **YuvaIntern**.
 
@@ -63,3 +64,11 @@ This repository contains the strategic planning, dataset exploration framework, 
 
 ## 📄 Full Report
 The full `.docx` report is available in this repository under `Week_1_Strategic_Planning_and_Data_Analysis.docx`.
+
+## 🌾 Week 2: Model Design and Algorithm Selection
+* **Focus:** Designing machine learning model architecture and algorithmic selection for crop yield prediction.
+* **Key Deliverables:** 
+  - Comprehensive algorithm comparative analysis (Random Forest vs. XGBoost).
+  - Preprocessing and data transformation pipeline blueprint.
+  - End-to-end model architecture schematic addressing agricultural seasonality and weather volatility.
+* **Deliverable File:** `Week_2_Model_Design_and_Algorithm_Selection.docx`
