@@ -1,87 +1,72 @@
-# 🌾 Agricultural Machine Learning Framework 
+# 🌾 Agricultural Machine Learning Framework
 
 ## 📌 Project Overview
-This repository contains the strategic planning, dataset exploration framework, and project roadmap for building a Machine Learning solution tailored to crop yield prediction and optimal crop recommendation.
+This repository contains the complete 5-week deliverables, strategic planning, dataset exploration frameworks, model architectures, feature engineering pipelines, evaluation strategies, and production deployment roadmaps for building a Machine Learning solution tailored to crop yield prediction and optimal crop recommendation.
 
-* **Domain:** Agriculture & Agribusiness
-* **Role:** Junior Machine Learning Engineer
-* **Author:** Minahil
-* **Deliverable:** Strategic Planning and Data Analysis Framework (`.docx` Report)
-
-Week 1: Strategic Planning & Data Analysis
-
-Welcome to the repository for **Week 1** of the 5-Week Machine Learning Internship in **Agriculture & Agribusiness** at **YuvaIntern**.
-
-## 🎯 Week 1 Objectives
-1. **Dataset Evaluation:** Analyze open-source datasets (FAOSTAT & UCI ML Crop Recommendation) for global/regional crop yields and soil chemistry metrics.
-2. **Research Questions:** Formulate domain-specific questions linking weather volatility, soil $N-P-K$ levels, and pH balance to crop yield outcomes.
-3. **Data Preprocessing & EDA Plan:** Design structured methodologies for handling missing agricultural data, outlier detection (IQR), unit normalization, and feature correlation heatmaps.
-4. **Domain Challenges:** Identify risks such as climate variability, multi-collinearity, and spatial generalizability alongside practical mitigation strategies.
-5. **Project Roadmap:** Establish a 5-week project execution timeline.
+- **Domain:** Agriculture & Agribusiness
+- **Role:** Junior Machine Learning Engineer
+- **Author:** Minahil
+- **Program:** YuvaIntern Virtual Internship
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-├── README.md                                       # Project Overview & Executive Summary
-└── Week_1_Strategic_Planning_and_Data_Analysis.docx  # Full Strategic Report Document
+├── README.md                                               # Project Overview & Weekly Index
+├── Week_1_Strategic_Planning_and_Data_Analysis.docx        # Week 1: Strategic Planning & Data Framework
+├── Week_2_Model_Design_and_Algorithm_Selection.docx        # Week 2: Model Design & Algorithm Rationale
+├── Week_3_Feature_Engineering_and_Data_Transformation.docx # Week 3: Feature Engineering & Transformation
+├── Week_4_Model_Evaluation_and_Optimization_Strategy.docx  # Week 4: Evaluation & Hyperparameter Tuning
+└── Week_5_Deployment_and_Monitoring_Strategy.docx          # Week 5: Deployment Architecture & Monitoring
 ```
 
----
+### 🗓️ 5-Week Internship Weekly Breakdown
+## 🎯 Week 1: Strategic Planning & Data Analysis Framework
+# Objective: Design a comprehensive strategic plan for an agricultural ML project covering data sourcing, exploration, and preliminary analysis.
 
-## 📑 Strategic Summary
+Key Highlights:
 
-### 1. Selected Datasets
-* **FAOSTAT / Kaggle Crop Production Dataset:** Regional yield, harvested area, rainfall, pesticides, and average temperature.
-* **UCI Crop Recommendation Dataset:** Nitrogen ($N$), Phosphorus ($P$), Potassium ($K$), pH, temperature, humidity, and rainfall.
+Dataset Evaluation: Analyzed open-source datasets (FAOSTAT & UCI ML Crop Recommendation) for global/regional crop yields and soil chemistry metrics.
 
-### 2. Evaluation Metrics
-* **Exploratory:** Missing Value Ratio, Skewness, Pearson Correlation Coefficients.
-* **Yield Model (Regression):** $\text{RMSE}$, $\text{MAE}$, $R^2$ Score.
-* **Crop Recommendation (Classification):** Precision, Recall, $F1$-Score.
+Research Questions: Formulated domain-specific questions linking weather volatility, soil N-P-K levels, and pH balance to crop yield outcomes.
 
-### 3. Risk Mitigation Framework
-| Challenge | Impact | Mitigation |
-| :--- | :--- | :--- |
-| **Climate Seasonality** | Extreme weather years distort baseline predictions | Multi-decade climate trend features & anomaly indices |
-| **Missing Soil Data** | Reduces sample size in local spatial models | KNN Imputation / spatial interpolation |
-| **Multi-Collinearity** | Instability in weather feature importances | VIF analysis & Principal Component Analysis (PCA) |
+Data Preprocessing & EDA Plan: Designed structured methodologies for handling missing agricultural data, outlier detection (IQR), unit normalization, and feature correlation heatmaps.
 
----
-
-## 🗓️ 5-Week Internship Roadmap
-* **Week 1:** Strategic Planning & Data Analysis Framework (Completed)
-* **Week 2:** Model Design & Algorithm Selection (Random Forest vs. XGBoost)
-* **Week 3:** Feature Engineering & Data Transformation ($N \times P \times K$ Interaction Features)
-* **Week 4:** Model Evaluation, Diagnostic Checks & Hyperparameter Tuning
-* **Week 5:** Deployment Strategy, Monitoring KPIs & Final Project Submission
-
----
-
-## 📄 Full Report
-The full `.docx` report is available in this repository under `Week_1_Strategic_Planning_and_Data_Analysis.docx`.
+Risk Mitigation: Identified risks such as climate variability, multi-collinearity, and spatial generalizability alongside practical mitigation strategies.
 
 ## 🌾 Week 2: Model Design and Algorithm Selection
-* **Focus:** Designing machine learning model architecture and algorithmic selection for crop yield prediction.
-* **Key Deliverables:** 
-  - Comprehensive algorithm comparative analysis (Random Forest vs. XGBoost).
-  - Preprocessing and data transformation pipeline blueprint.
-  - End-to-end model architecture schematic addressing agricultural seasonality and weather volatility.
-* **Deliverable File:** `Week_2_Model_Design_and_Algorithm_Selection.docx`
+# Objective: Create a detailed architectural design and algorithm selection strategy to predict key agribusiness metrics.
 
-  ## 🌾 Week 3: Feature Engineering and Data Transformation
-* **Focus:** Devising creative feature engineering techniques and data transformation pipelines for agricultural datasets.
-* **Key Deliverables:** 
-  - Selected agricultural feature sets with agronomic inclusion rationale.
-  - Five innovative engineering methods ($N \times P \times K$ interactions, GDD, log-transformed rainfall, SHI).
-  - Preprocessing guide covering missing value imputation, scaling, and IQR outlier clipping.
-* **Deliverable File:** `Week_3_Feature_Engineering_and_Data_Transformation.docx`
+Key Highlights:
+
+Algorithm Comparison: Comprehensive analysis comparing Random Forest Regressor (Bagging) vs. XGBoost Regressor (Gradient Boosting).
+
+Model Architecture: End-to-end schematic pipeline addressing agricultural seasonality and weather volatility.
+
+## 🌾 Week 3: Feature Engineering and Data Transformation
+# Objective: Devise innovative feature engineering techniques and transformation pipelines for agricultural datasets.
+
+Key Highlights:
+
+Feature Selection: Selected agricultural feature sets with agronomic inclusion rationale (N, P, K, rainfall, humidity, pH).
+
+Innovative Engineering: Proposed five engineering methods including N x P x K interactions, Growing Degree Days (GDD), log-transformed rainfall, and Soil Health Index (SHI).
 
 ## 🌾 Week 4: Model Evaluation and Optimization Strategy
-* **Focus:** Developing robust evaluation frameworks, performance metrics, diagnostic checks, and hyperparameter tuning for agricultural models[cite: 4].
-* **Key Deliverables:** 
-  - Justification of agricultural performance metrics (RMSE, MAE, $R^2$)[cite: 4].
-  - Diagnostic strategy addressing overfitting, underfitting, and spatial cross-validation.
-  - Systematic hyperparameter optimization framework[cite: 4].
-* **Deliverable File:** `Week_4_Model_Evaluation_and_Optimization_Strategy.docx`
+# Objective: Develop a robust evaluation and optimization framework tailored to agribusiness error margins.
+
+Key Highlights:
+
+Performance Metrics: Justification of agricultural performance metrics including RMSE, MAE, and R² Score.
+
+Diagnostics & Optimization: Spatial cross-validation, learning curves to check overfitting/underfitting, and systematic hyperparameter tuning.
+
+## 🌾 Week 5: Deployment & Monitoring Strategy Documentation
+# Objective: Build a scalable, production-ready deployment, monitoring, and risk management plan for agricultural systems.
+
+Key Highlights:
+
+Cloud Deployment: Containerized architecture blueprint using Docker, Kubernetes, and RESTful API integration with Farm Management Information Systems (FMIS).
+
+Monitoring & Contingency: Continuous monitoring KPIs, data refresh cycles, and edge-caching risk contingency strategies.
